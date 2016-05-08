@@ -1,0 +1,16 @@
+/*@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700\\);*/
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
+
+:root {
+  --fontFamily: 'lato', 'Helvetica', 'arial', sans-serif;
+  --fontSize: 12px;
+}
+
+h1 {
+  font-weight: 200;
+  font-size: calc(var(--fontSize) * 3);
+}
+
+a {
+  font-weight: 400;
+}

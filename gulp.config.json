@@ -1,0 +1,18 @@
+{
+  "server-root": "./",
+  "server-port": 1337,
+  "server-livereload": true,
+
+  "source-html": "./source/*.html",
+  "target-html": "./",
+
+  "source-css": "./source/css/main.css",
+  "target-css": "./build/css/",
+
+  "source-js": "./source/js/scripts.js",
+  "target-js": "./build/js/main.js",
+
+  "source-all-js-files": "./source/js/**/*.js",
+  "source-all-css-files": "./source/css/**/*.css",
+  "source-all-html-files": "./source/**/*.html"
+}
