@@ -341,6 +341,7 @@
   fill: #ECECEC;
   z-index: 9;
   width: 60px;
+  height: 60px;
   position: absolute;
   top: 20px;
   left: 20px;
@@ -394,4 +395,3 @@
             animation: slideFromLeft 1s ease-out;
   }
 }
-/*# sourceMappingURL=main.css.map */
