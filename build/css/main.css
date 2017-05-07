@@ -215,22 +215,18 @@
   /*}*/
 }.social-link {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
   position: relative;
   color: #ECECEC;
   width: 50px;
   height: 50px;
-  -webkit-transition: color 0.5s;
   transition: color 0.5s;
 }.social-link:hover {
   color: #AF1E1E;
@@ -242,20 +238,16 @@
 }body {
   color: #ECECEC;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column;
   font-family: 'lato', 'Helvetica', 'arial', sans-serif;
@@ -263,7 +255,6 @@
   background-color: #000;
 }.main-info, .main-image {
   -webkit-box-flex: 1;
-  -webkit-flex: 1;
       -ms-flex: 1;
           flex: 1;
   background-color: #000;
@@ -274,25 +265,20 @@
 }.main-info {
   z-index: 2;
   -webkit-box-ordinal-group: 3;
-  -webkit-order: 2;
       -ms-flex-order: 2;
           order: 2;
 }.inner-main-info {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column;
   -webkit-box-align: center;
-  -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
   position: absolute;
@@ -310,14 +296,12 @@
   line-height: 1.4;
   font-weight: 200;
 }.article-content a {
-  -webkit-transition: all 0.2s;
   transition: all 0.2s;
   border-bottom: 2px solid transparent;
 }.article-content a:hover {
   border-bottom: 2px solid #AF1E1E;
 }.divider {
   -webkit-box-ordinal-group: 2;
-  -webkit-order: 1;
       -ms-flex-order: 1;
           order: 1;
   background-color: #383131;
@@ -346,7 +330,6 @@
   top: 20px;
   left: 20px;
   pointer-events: all;
-  -webkit-transition: fill 0.5s ease;
   transition: fill 0.5s ease;
 }.tj-logo:hover {
   fill: #AF1E1E;
@@ -357,23 +340,19 @@
   margin-top: 20px;
   width: 100%;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
 }@media (min-width: 780px){body{
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: row;
         -ms-flex-direction: row;
             flex-direction: row;
     font-size: 15px;
   }.main-info{
     -webkit-box-ordinal-group: 1;
-    -webkit-order: 0;
         -ms-flex-order: 0;
             order: 0;
   }.inner-main-info{
@@ -381,7 +360,6 @@
             animation: slideFromRight 1s ease-out;
   }.divider{
     -webkit-box-ordinal-group: 1;
-    -webkit-order: 0;
         -ms-flex-order: 0;
             order: 0;
     width: 1px;
